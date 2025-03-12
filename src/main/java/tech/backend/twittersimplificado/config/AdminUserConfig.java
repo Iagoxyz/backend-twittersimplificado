@@ -9,6 +9,7 @@ import tech.backend.twittersimplificado.entity.User;
 import tech.backend.twittersimplificado.repository.RoleRepository;
 import tech.backend.twittersimplificado.repository.UserRepository;
 
+import java.util.Optional;
 import java.util.Set;
 
 @Configuration
