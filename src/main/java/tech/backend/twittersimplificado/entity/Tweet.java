@@ -55,18 +55,4 @@ public class Tweet {
         this.creationTimestamp = creationTimestamp;
     }
 
-    public enum Values {
-        ADMIN(1L),
-        BASIC(2L);
-
-        Long roleId;
-
-        Values(Long roleId) {
-            this.roleId = roleId;
-        }
-
-        public Long getRoleId() {
-            return roleId;
-        }
-    }
 }
